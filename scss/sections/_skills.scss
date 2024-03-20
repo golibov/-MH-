@@ -1,0 +1,85 @@
+#skills {
+          width: 100%;
+          height: 581px;
+
+          .wrap-btn {
+                    text-align: center;
+
+                    button {
+
+                              margin-top: 96px;
+                              width: 105px;
+                              height: 28px;
+                              border-radius: 12px;
+                              border: none;
+                              font-weight: 500;
+                              font-size: 14px;
+                              line-height: 20px;
+                              background-color: var(--button-color);
+
+                    }
+          }
+
+          h1 {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #4B5563;
+                    text-align: center;
+                    padding-top: 16px;
+          }
+
+          .grid {
+                    display: grid;
+                    grid-template-columns: repeat(8, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 50px;
+                    grid-row-gap: 48px;
+                    margin-top: 48px;
+
+                    .grid-items {
+                              img:hover {
+                                        transform: rotateY(360deg);
+                                        transition: all 1s linear;
+                              }
+                    }
+          }
+}
+
+@media (prefers-color-scheme: dark) {
+          #skills {
+                    background-color: #030712;
+
+                    h1 {
+                              color: white;
+                    }
+          }
+}
+
+@media only screen and (max-width: 600px) {
+          #skills {
+                    .skills__info {
+                              width: 343px;
+                              text-align: center;
+                    }
+
+                    .icons__first-line {
+                              display: grid;
+                              grid-template-columns: repeat(3, 1fr);
+                              grid-template-rows: repeat(6, 1fr);
+                              grid-column-gap: 10px;
+                              grid-row-gap: 10px;
+                              padding: 0px;
+                              padding-top: 10px;
+                    }
+
+                    .icons__second-line {
+                              display: grid;
+                              grid-template-columns: repeat(3, 1fr);
+                              grid-template-rows: repeat(6, 1fr);
+                              grid-column-gap: 10px;
+                              grid-row-gap: 10px;
+                              padding: 0px;
+                    }
+          }
+}

@@ -1,0 +1,182 @@
+#intro {
+          width: 100%;
+          height: 552px;
+
+          .wrapper {
+                    display: flex;
+                    align-items: center;
+                    padding-top: 108px;
+                    gap: 48px;
+                    justify-content: center;
+
+                    .left {
+                              h1 {
+                                        font-weight: 700;
+                                        font-size: 60px;
+                                        line-height: 72px;
+                                        color: var(--primary-color);
+                              }
+
+                              p {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        color: var(--secondary-color);
+                                        padding-top: 8px;
+                              }
+
+                              .wrap {
+                                        padding-top: 48px;
+
+                                        .wrap-2 {
+                                                  display: flex;
+                                                  align-items: center;
+                                                  gap: 8px;
+
+                                        }
+
+                                        .wrap-1 {
+                                                  display: flex;
+                                                  align-items: center;
+                                                  gap: 8px;
+                                        }
+                              }
+
+                              .icons {
+                                        display: flex;
+                                        padding-top: 48px;
+                              }
+                    }
+
+                    .right {
+                              width: 400px;
+                              height: 368px;
+                              position: relative;
+                              margin-top: 96px;
+
+                              .teacher {
+                                        position: absolute;
+                                        z-index: 999;
+                                        top: -50px;
+                                        left: 20px;
+                                        transition: all 0.8s ;
+
+                                        &:hover {
+                                                  left: 50px;
+                                                  top: 0;
+
+
+                                        }
+                              }
+
+
+
+                              .shadow {
+                                        position: absolute;
+                                        left: 50px;
+                              }
+                    }
+          }
+}
+
+@media (prefers-color-scheme: dark){
+          #intro{
+                    background-color: #030712;
+                    .wrapper{
+                              .left{
+                                        h1{
+                                                  color: white;
+
+                                        }
+                                        p{
+                                                  color: white;
+                                        }
+                              }
+                              .icons{
+                              .box-icons{
+                                        background-color: white;
+                              }
+                              }
+                    }
+          }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

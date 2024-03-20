@@ -1,0 +1,164 @@
+#about {
+          width: 100%;
+          height: 962px;
+          background-color: #F9FAFB;
+
+
+
+          .wrap-btn {
+                    text-align: center;
+
+                    button {
+
+                              margin-top: 96px;
+                              width: 105px;
+                              height: 28px;
+                              border-radius: 12px;
+                              border: none;
+                              font-weight: 500;
+                              font-size: 14px;
+                              line-height: 20px;
+                              background-color: var(--button-color);
+
+                    }
+          }
+
+          .wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 76px;
+
+
+                    .left {
+                              width: 584px;
+                              height: 684px;
+                              position: relative;
+
+                              .shadow {
+                                        position: absolute;
+                                        width: 400px;
+                                        height: 520px;
+                              }
+
+                              .teacher {
+                                        position: absolute;
+                                        width: 400px;
+                                        height: 480px;
+                                        z-index: 9;
+                                        left: 40px;
+                                        top: -20px;
+                                        transition: all 0.5s;
+
+                                        &:hover {
+                                                  left: 0;
+                                                  top: 20px;
+                                        }
+                              }
+                    }
+
+                    .right {
+                              width: 584px;
+                              height: 634px;
+                              margin-bottom: 96px;
+
+
+                              h3 {
+                                        font-weight: 600;
+                                        font-size: 30px;
+                                        color: var--primary-color;
+                                        line-height: 36px;
+                                        padding-bottom: 8px;
+                              }
+
+                              p {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        color: var(--secondary-color);
+                                        padding-top: 16px;
+                              }
+
+                              .wrap {
+                                        display: flex;
+                                        gap: 10px;
+                                        align-items: center;
+                                        padding-top: 10px;
+
+                                        .wrap-left {
+                                                  gap: 5px;
+
+                                                  p {
+                                                            color: #4B5563;
+                                                  }
+
+                                                  span {
+                                                            width: 5px;
+                                                            height: 5px;
+                                                            background-color: #4B5563;
+                                                            border-radius: 50%;
+                                                            margin-top: 12px;
+                                                  }
+                                        }
+
+                                        .wrap-right {
+                                                  gap: 5px;
+
+                                                  p {
+                                                            color: #4B5563;
+                                                  }
+
+                                                  span {
+                                                            width: 5px;
+                                                            height: 5px;
+                                                            background-color: #4B5563;
+                                                            border-radius: 50%;
+                                                            margin-top: 12px;
+                                                  }
+                                        }
+                              }
+                    }
+          }
+
+}
+
+@media (prefers-color-scheme: dark) {
+          #about {
+                    background-color: #111827;
+
+                    .wrapper {
+                              .right {
+                                        h3 {
+                                                  color: white;
+
+                                        }
+
+                                        p {
+                                                  color: white;
+                                        }
+                              }
+
+                              .icons {
+                                        .box-icons {
+                                                  background-color: white;
+                                        }
+                              }
+
+                              .wrap {
+
+                                        .wrap-left {
+                                                  .wrap {
+                                                            p {
+                                                                      color: white;
+
+                                                            }
+
+                                                            span {
+                                                                      background-color: white;
+                                                            }
+                                                  }
+                                        }
+                              }
+                    }
+          }
+}

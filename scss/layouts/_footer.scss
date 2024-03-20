@@ -1,0 +1,121 @@
+footer {
+          width: 100%;
+          height: 588px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+
+          .wrap-btn {
+                    text-align: center;
+
+                    button {
+
+                              margin-top: 50px;
+                              width: 105px;
+                              height: 28px;
+                              border-radius: 12px;
+                              border: none;
+                              font-weight: 500;
+                              font-size: 14px;
+                              line-height: 20px;
+                              background-color: var(--button-color);
+
+                    }
+          }
+
+          p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: var(--secondary-color);
+                    padding-top: 16px;
+          }
+
+          .wrapper {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    margin-top: 50px;
+                    justify-content: center;
+          }
+
+          .wrap {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    margin-top: 16px;
+                    justify-content: center;
+          }
+
+          .platforms {
+                    font-weight: 40;
+                    line-height: 24px;
+                    font-size: 16px;
+                    text-align: center;
+          }
+
+          .icon-wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 4px;
+
+          }
+
+
+
+}
+
+.foot-footer {
+          // width: 100%;
+          height: 68px;
+          background-color: #F9FAFB;
+
+          .wrap {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 24px;
+                    gap: 8px;
+          }
+}
+
+
+@media (prefers-color-scheme: dark) {
+          footer {
+                    .wrap-btn {
+                              button {
+                                        background-color: #E5E7EB;
+                                        color: white;
+                              }
+                    }
+
+                    background-color: #030712;
+
+                    p {
+                              color: white;
+                    }
+                    .wrapper{
+                              h2{
+                                        color: white;
+                              }
+                    }
+                    .wrap{
+                              h2{
+                                        color: white;
+                              }
+                    }
+                    p{
+                              color: white;
+                    }
+          }
+
+          .foot-footer{
+                    background-color: #111827;
+                    P{
+                              color: white;
+                    }
+          }
+}

@@ -1,0 +1,1046 @@
+#work {
+          width: 100%;
+          height: 1848px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          .wrap-btn {
+                    text-align: center;
+
+                    button {
+
+                              margin-top: 96px;
+                              width: 105px;
+                              height: 28px;
+                              border-radius: 12px;
+                              border: none;
+                              font-weight: 500;
+                              font-size: 14px;
+                              line-height: 20px;
+                              background-color: var(--button-color);
+
+                    }
+          }
+
+          h1 {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #4B5563;
+                    text-align: center;
+                    padding-top: 16px;
+          }
+
+          .wrapper-1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1151px;
+                    height: 480px;
+                    margin-top: 48px;
+                    margin-bottom: 48px;
+
+                    .wrapper-left {
+                              width: 576px;
+                              height: 480px;
+
+
+                    }
+
+                    .wrapper-right {
+                              width: 576px;
+                              height: 480px;
+                              padding: 48px;
+
+                              h2 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        color: var(--primary-color);
+                              }
+
+                              p {
+                                        font-weight: 400;
+                                        color: var(--secondary-color);
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        padding-top: 24px;
+                              }
+
+
+                              .grid {
+                                        position: relative;
+                                        margin-top: 24px;
+
+                                        .grid-1 {
+                                                  position: absolute;
+
+                                                  button {
+
+
+                                                            width: 82px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-2 {
+                                                  position: absolute;
+                                                  left: 91px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-3 {
+                                                  position: absolute;
+                                                  left: 186px;
+
+                                                  button {
+
+
+                                                            width: 112px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-4 {
+                                                  position: absolute;
+                                                  left: 306px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-5 {
+                                                  position: absolute;
+                                                  top: 36px;
+
+                                                  button {
+
+
+                                                            width: 120px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-6 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 128px;
+
+                                                  button {
+
+
+                                                            width: 119px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-7 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 255px;
+
+
+                                                  button {
+
+
+                                                            width: 81px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-8 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 344px;
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-9 {
+                                                  position: absolute;
+                                                  top: 72px;
+
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-10 {
+                                                  position: absolute;
+                                                  top: 72px;
+                                                  left: 104px;
+
+
+
+                                                  button {
+
+
+                                                            width: 60px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                              }
+
+                              a {
+                                        img {
+                                                  margin-top: 148px;
+                                        }
+                              }
+                    }
+          }
+
+          .wrapper-2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1151px;
+                    height: 480px;
+                    margin-top: 48px;
+                    margin-bottom: 48px;
+
+                    .wrapper-right {
+                              width: 576px;
+                              height: 480px;
+
+
+                    }
+
+                    .wrapper-left {
+                              width: 576px;
+                              height: 480px;
+                              padding: 48px;
+
+                              h2 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        color: var(--primary-color);
+                              }
+
+                              p {
+                                        font-weight: 400;
+                                        color: var(--secondary-color);
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        padding-top: 24px;
+                              }
+
+
+                              .grid {
+                                        position: relative;
+                                        margin-top: 24px;
+
+                                        .grid-1 {
+                                                  position: absolute;
+
+                                                  button {
+
+
+                                                            width: 82px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-2 {
+                                                  position: absolute;
+                                                  left: 91px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-3 {
+                                                  position: absolute;
+                                                  left: 186px;
+
+                                                  button {
+
+
+                                                            width: 112px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-4 {
+                                                  position: absolute;
+                                                  left: 306px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-5 {
+                                                  position: absolute;
+                                                  top: 36px;
+
+                                                  button {
+
+
+                                                            width: 120px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-6 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 128px;
+
+                                                  button {
+
+
+                                                            width: 119px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-7 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 255px;
+
+
+                                                  button {
+
+
+                                                            width: 81px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-8 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 344px;
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-9 {
+                                                  position: absolute;
+                                                  top: 72px;
+
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-10 {
+                                                  position: absolute;
+                                                  top: 72px;
+                                                  left: 104px;
+
+
+
+                                                  button {
+
+
+                                                            width: 60px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                              }
+
+                              a {
+                                        img {
+                                                  margin-top: 148px;
+                                        }
+                              }
+                    }
+          }
+
+          .wrapper-3 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1151px;
+                    height: 480px;
+                    margin-top: 48px;
+                    margin-bottom: 48px;
+
+                    .wrapper-left {
+                              width: 576px;
+                              height: 480px;
+
+
+                    }
+
+                    .wrapper-right {
+                              width: 576px;
+                              height: 480px;
+                              padding: 48px;
+
+                              h2 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        color: var(--primary-color);
+                              }
+
+                              p {
+                                        font-weight: 400;
+                                        color: var(--secondary-color);
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        padding-top: 24px;
+                              }
+
+                              a {
+                                        img {
+                                                  margin-top: 24px;
+                                        }
+                              }
+
+                              .grid {
+                                        position: relative;
+                                        margin-top: 24px;
+
+                                        .grid-1 {
+                                                  position: absolute;
+
+                                                  button {
+
+
+                                                            width: 82px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-2 {
+                                                  position: absolute;
+                                                  left: 91px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-3 {
+                                                  position: absolute;
+                                                  left: 186px;
+
+                                                  button {
+
+
+                                                            width: 112px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-4 {
+                                                  position: absolute;
+                                                  left: 306px;
+
+                                                  button {
+
+
+                                                            width: 87px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-5 {
+                                                  position: absolute;
+                                                  top: 36px;
+
+                                                  button {
+
+
+                                                            width: 120px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-6 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 128px;
+
+                                                  button {
+
+
+                                                            width: 119px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-7 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 255px;
+
+
+                                                  button {
+
+
+                                                            width: 81px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-8 {
+                                                  position: absolute;
+                                                  top: 36px;
+                                                  left: 344px;
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-9 {
+                                                  position: absolute;
+                                                  top: 72px;
+
+
+
+                                                  button {
+
+
+                                                            width: 96px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                                        .grid-10 {
+                                                  position: absolute;
+                                                  top: 72px;
+                                                  left: 104px;
+
+
+
+                                                  button {
+
+
+                                                            width: 60px;
+                                                            height: 28px;
+                                                            border-radius: 12px;
+                                                            border: none;
+                                                            font-weight: 500;
+                                                            font-size: 14px;
+                                                            line-height: 20px;
+                                                            background-color: var(--button-color);
+                                                            color: var(--secondary-color);
+
+                                                  }
+                                        }
+
+                              }
+
+                              a {
+                                        img {
+                                                  margin-top: 148px;
+                                        }
+                              }
+                    }
+          }
+}
+
+@media (prefers-color-scheme: dark) {
+          #work {
+                    background-color: #030712;
+
+                    h1 {
+                              color: white;
+                    }
+
+                    .wrapper-1 {
+                              .wrapper-right {
+                                        h2 {
+                                                  color: white;
+                                        }
+
+                                        .grid {
+                                                  .grid-1 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-2 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-3 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-4 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-5 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-6 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-7 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-8 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-9 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-10 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                        }
+
+                              }
+                    }
+
+                    .wrapper-2 {
+                              .wrapper-left {
+                                        h2 {
+                                                  color: white;
+                                        }
+
+                                        .grid {
+                                                  .grid-1 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-2 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-3 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-4 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-5 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-6 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-7 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-8 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-9 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-10 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                        }
+
+                              }
+                    }
+
+                    .wrapper-3 {
+                              .wrapper-right {
+                                        h2 {
+                                                  color: white;
+                                        }
+
+                                        .grid {
+                                                  .grid-1 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-2 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-3 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-4 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-5 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-6 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-7 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-8 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-9 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                                  .grid-10 {
+                                                            button {
+                                                                      background-color: #4B5563;
+                                                                      color: #6B7280;
+                                                            }
+                                                  }
+                                        }
+
+                              }
+                    }
+          }
+}
